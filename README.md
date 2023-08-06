@@ -43,19 +43,19 @@ Say your GitHub username is `pikachu` and you wish to create a block named `poke
    module:
      imports:
        # Your block's GitHub URL (replace <USERNAME> and <COLLECTION-NAME> with your GitHub username and block collection name)
-       - path: github.com/<USERNAME>/wowchemy-block-<COLLECTION-NAME>
+       - path: github.com/luigi8bits/wowchemy-block-luigi-works
    ```
 1. Create an instance of your block in `home/`, for example let's create `home/my-block.md`:
    ```markdown
    ---
    # Replace <USERNAME> and <BLOCK-NAME> with your GitHub username and block name, respectively.
-   widget: 'github.luigi8bits.myip'
+   widget: github.luigi8bits.myip
 
    # This file represents a page section.
    headless: true
 
    # Order that this section appears on the page.
-   weight: 1
+   weight: 30
 
    # Title at the top of the Section
    title: Countdown Timers
