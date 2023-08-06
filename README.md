@@ -49,7 +49,7 @@ Say your GitHub username is `pikachu` and you wish to create a block named `poke
    ```markdown
    ---
    # Replace <USERNAME> and <BLOCK-NAME> with your GitHub username and block name, respectively.
-   widget: 'github.<USERNAME>.<BLOCK-NAME>'
+   widget: 'github.luigi8bits.myip'
 
    # This file represents a page section.
    headless: true
@@ -57,10 +57,21 @@ Say your GitHub username is `pikachu` and you wish to create a block named `poke
    # Order that this section appears on the page.
    weight: 1
 
-   title: Hello
-   ---
+   # Title at the top of the Section
+   title: Countdown Timers
 
-   Welcome to my new block!
+   ############################
+   # Block Configuration Items
+   ############################
+
+   countdowns:
+      - name: Christmas
+        date: 2023-12-25
+   
+   ---
+   
+   # Optional Content below timers
+   Irure commodo nisi cillum fugiat sunt aliqua tempor voluptate sit reprehenderit cupidatat commodo.
    ```
 
 ## 📢 Share your block
